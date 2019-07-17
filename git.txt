@@ -13,7 +13,8 @@
 	（4）回退到指定版本：git reset --hard xx (xx:commit id)
 9. 查看提交历史:git reflog
 10.查看commit提交内容：git log
-11.
+11.撤消修改，文件还未git add:git checkout -- 需要撤消修改的文件名
+12.撤消修改，文件已经git add:git reset HEAD 需要撤消修改的文件名
 
 
 
