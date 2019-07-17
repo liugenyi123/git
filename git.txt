@@ -6,7 +6,14 @@
 5. 文件提交：git commit -m "本次提交说明，方便以后理解文件改动"
 6. 查询文件改动命令：git status
 7. 查看xx文件详细改变：git diff 文件名
-
+8. 回退到某个版本：
+	（1）回退到上个版本：git reset --hard HEAD^
+	（2）回退到上上个版本：git reset --hard HEAD^^
+	（3）回退到xx版本：git reset --hard HEAD~xx(例：HEAD~100)
+	（4）回退到指定版本：git reset --hard xx (xx:commit id)
+9. 查看提交历史:git reflog
+10.查看commit提交内容：git log
+11.
 
 
 
