@@ -2,7 +2,10 @@
 1. 配置本机git的用户名：git config --global user.name "Your Name"
 2. 配置本机git的邮箱：git config --global user.email "xx@xx.com"
 3. 创建git仓库：git init
-
+4. 将文件添加到仓库：git add 文件名
+5. 文件提交：git commit -m "本次提交说明，方便以后理解文件改动"
+6. 查询文件改动命令：git status
+7. 查看xx文件详细改变：git diff 文件名
 
 
 
