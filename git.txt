@@ -30,4 +30,9 @@
 	 （1）第一次提交建议加上-u 参数。
 	  (2)origin 是本地分支名。
 	  (3)master 是远程仓库的主分支名。
+17.创建分支：git branch 分支名。
+18.切换分支：git checkout 分支名。
+19.创建并切换分支：git checkout -b 分支名。
+20.合并分支：git merge 需要合并的分支名。
+21.删除分支：git branch -d 分支名。
 
