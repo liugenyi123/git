@@ -25,5 +25,9 @@
 	 (4)Title文本框可以随便填写。
 	 (5)Key文本框粘粘id_rsa_pub文件内容。
 	 (6)点击"Add SSH key"，到此你已经把ssh公钥加入你的github帐号。
- 
+15.将远程仓库复制到本地：git clone 需要复制到本地的网址。
+16.本地文件提交到远程仓库：git push -u origin master
+	 （1）第一次提交建议加上-u 参数。
+	  (2)origin 是本地分支名。
+	  (3)master 是远程仓库的主分支名。
 
