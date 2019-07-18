@@ -15,8 +15,15 @@
 10.查看commit提交内容：git log
 11.撤消修改，文件还未git add:git checkout -- 需要撤消修改的文件名
 12.撤消修改，文件已经git add:git reset HEAD 需要撤消修改的文件名
-
-
-
-
+13.ssh软件创建key:ssh-keygen -t rsa -C "youremail@xx.com"
+	 (1)如果创建顺利，在用户主目录会有.ssh目录，里面包含id_rsa,id_rsa_pub两个文件。
+	 (2)id_rsa是私钥，自己要保管好，id_rsa_pub是公钥，是提供给别人，用来身份认证。
+14.添加ssh公钥到自己的github帐号：
+	 (1)登录GitHub，点击右上角的图标，选择Settings。
+	 (2)在页面左边点击"SSH and GPG keys"。
+	 (3)在页面右边点击"New SSH key"。
+	 (4)Title文本框可以随便填写。
+	 (5)Key文本框粘粘id_rsa_pub文件内容。
+	 (6)点击"Add SSH key"，到此你已经把ssh公钥加入你的github帐号。
+ 
 
