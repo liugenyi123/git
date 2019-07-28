@@ -1,0 +1,3 @@
+常用命令：
+	（1）udevadm info -a -p /sys/devices/platform/serialxx/tty/ttyS0
+	（2）udevadm info -a -p $(udevadm info -q path -n /dev/<节点名>)
