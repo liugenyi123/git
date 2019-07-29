@@ -1,0 +1,11 @@
+ed参数：
+	（1）删除（delete）-d
+	（2）改变（change）-c
+	（3）添加（append）-a
+	（4）插入（insert）-i
+	（5）替换（substuite）-s
+	（6）转换（trsnfer）-t
+注意：
+	（1）sed以行对输入处理
+	（2）sed处理的不是原文件而是原文件的拷贝
+
