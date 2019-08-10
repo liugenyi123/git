@@ -35,4 +35,4 @@
 19.创建并切换分支：git checkout -b 分支名。
 20.合并分支：git merge 需要合并的分支名。
 21.删除分支：git branch -d 分支名。
-
+22.查看分支合并图：git log --graph
