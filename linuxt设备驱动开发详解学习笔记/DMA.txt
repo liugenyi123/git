@@ -1,0 +1,8 @@
+DMA内存申请函数：
+	(1)__get_dma_pages(gfp_mask,order);
+	(2)unsigned long dma_mem_alloc(int size);
+	(3)void *dma_alloc_coherent(struct device *dev,size_t size,dma_addr_t *handle,gfp_t gfp);
+	(4)void *dma_alloc_writecombine(struct device *dev,size_t size,dma_addr_t *handle,gfp_t gfp);
+	(5)void *pci_alloc_consisent(struct pci_dev,size_t size,dma_addr_t *dma_addrp);
+DMA地址掩码：int dma_set_mask(struct device *dev,u64 mask);
+
