@@ -36,3 +36,5 @@
 20.合并分支：git merge 需要合并的分支名。
 21.删除分支：git branch -d 分支名。
 22.查看分支合并图：git log --graph
+23.克隆深度：git clone --depth=1 xxx
+24. git pull --depth=100
